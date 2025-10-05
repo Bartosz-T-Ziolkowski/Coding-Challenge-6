@@ -41,3 +41,33 @@ console.log(emp1.describe());
 console.log(emp2.describe());
 console.log(mgr1.describe());
 console.log(mgr2.describe());
+
+// Step 5:
+
+class Company {
+    constructor() {
+        this.employees = [];
+    }
+
+    addEmployee(employee) {
+        this.employees.push(employee);
+    }
+
+    listEmployees() {
+        for (let e of this.employees) {
+            console.log(e.describe());
+        }
+
+    }
+
+}
+
+// Step 6: 
+
+let bartsCompany = new Company();
+bartsCompany.addEmployee(emp1);
+bartsCompany.addEmployee(emp2);
+bartsCompany.addEmployee(mgr1);
+bartsCompany.addEmployee(mgr2);
+
+bartsCompany.listEmployees();
