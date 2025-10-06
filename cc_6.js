@@ -1,8 +1,8 @@
-// Coding Challenge 00
+// Coding Challenge 06
 
 // Code goes here
 
-// Step 1:
+// Step 1: 
 
 // Step 2:
 
